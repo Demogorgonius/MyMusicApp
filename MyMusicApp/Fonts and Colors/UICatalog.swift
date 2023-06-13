@@ -11,7 +11,7 @@ import UIKit
 
 struct UICatalog {
     
-    struct Colors {
+    enum Colors {
         static let brandBlack = UIColor(named:"Brand 1")
         static let brandLime =  UIColor(named:"Brand 2")
         static let lightGray = UIColor(named:"Neutral 1")
@@ -20,7 +20,7 @@ struct UICatalog {
         
     }
     
-    struct Icons {
+    enum Icons {
         static let aspectRatio = UIImage(named: "aspect_ratio")
         static let off = UIImage(named: "highlight_off")
         static let restore = UIImage(named: "restore")
@@ -69,7 +69,7 @@ struct UICatalog {
     }
     
     
-    struct TapBarIcons{
+    enum TapBarIcons{
         
         static let accountActive = UIImage(named: "accountActive")
         static let accountDefault = UIImage(named: "accountDefault")
@@ -82,7 +82,7 @@ struct UICatalog {
     }
     
     
-    struct Fonts {
+    enum Fonts {
         
         static let bold48 = UIFont(name: "Roboto-Bold", size: 48)
         static let bold36 = UIFont(name: "Roboto-Bold", size: 36)
