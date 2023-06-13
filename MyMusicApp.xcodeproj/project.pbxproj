@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95BE88FD2A38463C00F428AB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88F82A38463C00F428AB /* Roboto-Regular.ttf */; };
+		95BE88FE2A38463C00F428AB /* Guides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88F92A38463C00F428AB /* Guides.pdf */; };
+		95BE88FF2A38463C00F428AB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88FA2A38463C00F428AB /* Roboto-Bold.ttf */; };
+		95BE89002A38463C00F428AB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88FB2A38463C00F428AB /* Roboto-Medium.ttf */; };
+		95BE89012A38463C00F428AB /* UICatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE88FC2A38463C00F428AB /* UICatalog.swift */; };
 		A58E14A02A37423000447E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E149F2A37423000447E18 /* AppDelegate.swift */; };
 		A58E14A22A37423000447E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E14A12A37423000447E18 /* SceneDelegate.swift */; };
 		A58E14A42A37423000447E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E14A32A37423000447E18 /* ViewController.swift */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95BE88F82A38463C00F428AB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		95BE88F92A38463C00F428AB /* Guides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Guides.pdf; sourceTree = "<group>"; };
+		95BE88FA2A38463C00F428AB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		95BE88FB2A38463C00F428AB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		95BE88FC2A38463C00F428AB /* UICatalog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICatalog.swift; sourceTree = "<group>"; };
 		A58E149C2A37423000447E18 /* MyMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58E149F2A37423000447E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A58E14A12A37423000447E18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95BE89022A38464D00F428AB /* Fonts and Colors */ = {
+			isa = PBXGroup;
+			children = (
+				95BE88FC2A38463C00F428AB /* UICatalog.swift */,
+				95BE88F92A38463C00F428AB /* Guides.pdf */,
+				95BE88FA2A38463C00F428AB /* Roboto-Bold.ttf */,
+				95BE88FB2A38463C00F428AB /* Roboto-Medium.ttf */,
+				95BE88F82A38463C00F428AB /* Roboto-Regular.ttf */,
+			);
+			path = "Fonts and Colors";
+			sourceTree = "<group>";
+		};
 		A58E14932A37423000447E18 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,7 @@
 				A58E14A82A37423100447E18 /* Assets.xcassets */,
 				A58E14AA2A37423100447E18 /* LaunchScreen.storyboard */,
 				A58E14AD2A37423100447E18 /* Info.plist */,
+				95BE89022A38464D00F428AB /* Fonts and Colors */,
 			);
 			path = MyMusicApp;
 			sourceTree = "<group>";
@@ -122,8 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BE88FD2A38463C00F428AB /* Roboto-Regular.ttf in Resources */,
 				A58E14AC2A37423100447E18 /* LaunchScreen.storyboard in Resources */,
+				95BE89002A38463C00F428AB /* Roboto-Medium.ttf in Resources */,
+				95BE88FF2A38463C00F428AB /* Roboto-Bold.ttf in Resources */,
 				A58E14A92A37423100447E18 /* Assets.xcassets in Resources */,
+				95BE88FE2A38463C00F428AB /* Guides.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 				A58E14A42A37423000447E18 /* ViewController.swift in Sources */,
 				A58E14A02A37423000447E18 /* AppDelegate.swift in Sources */,
 				A58E14A22A37423000447E18 /* SceneDelegate.swift in Sources */,
+				95BE89012A38463C00F428AB /* UICatalog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
