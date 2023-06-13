@@ -45,7 +45,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		95BE89022A38464D00F428AB /* Fonts and Color */ = {
+		95BE89022A38464D00F428AB /* Fonts and Colors */ = {
 			isa = PBXGroup;
 			children = (
 				95BE88FC2A38463C00F428AB /* UICatalog.swift */,
@@ -54,7 +54,7 @@
 				95BE88FB2A38463C00F428AB /* Roboto-Medium.ttf */,
 				95BE88F82A38463C00F428AB /* Roboto-Regular.ttf */,
 			);
-			path = "Fonts and Color";
+			path = "Fonts and Colors";
 			sourceTree = "<group>";
 		};
 		A58E14932A37423000447E18 = {
@@ -82,7 +82,7 @@
 				A58E14A82A37423100447E18 /* Assets.xcassets */,
 				A58E14AA2A37423100447E18 /* LaunchScreen.storyboard */,
 				A58E14AD2A37423100447E18 /* Info.plist */,
-				95BE89022A38464D00F428AB /* Fonts and Color */,
+				95BE89022A38464D00F428AB /* Fonts and Colors */,
 			);
 			path = MyMusicApp;
 			sourceTree = "<group>";
