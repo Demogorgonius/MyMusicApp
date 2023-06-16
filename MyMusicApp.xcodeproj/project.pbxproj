@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056C0E302A3B8868002E97A5 /* TabOneTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0E2F2A3B8868002E97A5 /* TabOneTempController.swift */; };
+		056C0E322A3B8894002E97A5 /* TabTwoTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0E312A3B8894002E97A5 /* TabTwoTempController.swift */; };
+		056C0E342A3B88D4002E97A5 /* TabThreeTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0E332A3B88D4002E97A5 /* TabThreeTempController.swift */; };
+		056C0E362A3B88F1002E97A5 /* TabFourTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0E352A3B88F1002E97A5 /* TabFourTempController.swift */; };
+		056C0E392A3B8957002E97A5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C0E382A3B8957002E97A5 /* TabBarController.swift */; };
+		0584E6612A38C6D60053D1A8 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584E6602A38C6D60053D1A8 /* OnboardingScreen.swift */; };
 		95BE88FD2A38463C00F428AB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88F82A38463C00F428AB /* Roboto-Regular.ttf */; };
 		95BE88FE2A38463C00F428AB /* Guides.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88F92A38463C00F428AB /* Guides.pdf */; };
 		95BE88FF2A38463C00F428AB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BE88FA2A38463C00F428AB /* Roboto-Bold.ttf */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		056C0E2F2A3B8868002E97A5 /* TabOneTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneTempController.swift; sourceTree = "<group>"; };
+		056C0E312A3B8894002E97A5 /* TabTwoTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoTempController.swift; sourceTree = "<group>"; };
+		056C0E332A3B88D4002E97A5 /* TabThreeTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThreeTempController.swift; sourceTree = "<group>"; };
+		056C0E352A3B88F1002E97A5 /* TabFourTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFourTempController.swift; sourceTree = "<group>"; };
+		056C0E382A3B8957002E97A5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0584E6602A38C6D60053D1A8 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		95BE88F82A38463C00F428AB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		95BE88F92A38463C00F428AB /* Guides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Guides.pdf; sourceTree = "<group>"; };
 		95BE88FA2A38463C00F428AB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -45,6 +57,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056C0E372A3B890A002E97A5 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				056C0E382A3B8957002E97A5 /* TabBarController.swift */,
+				056C0E2F2A3B8868002E97A5 /* TabOneTempController.swift */,
+				056C0E312A3B8894002E97A5 /* TabTwoTempController.swift */,
+				056C0E332A3B88D4002E97A5 /* TabThreeTempController.swift */,
+				056C0E352A3B88F1002E97A5 /* TabFourTempController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		0584E6622A38C96B0053D1A8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0584E6602A38C6D60053D1A8 /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		95BE89022A38464D00F428AB /* Fonts and Colors */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +108,11 @@
 		A58E149E2A37423000447E18 /* MyMusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				056C0E372A3B890A002E97A5 /* TabBarController */,
 				A58E149F2A37423000447E18 /* AppDelegate.swift */,
 				A58E14A12A37423000447E18 /* SceneDelegate.swift */,
 				A58E14A32A37423000447E18 /* ViewController.swift */,
+				0584E6622A38C96B0053D1A8 /* Onboarding */,
 				A58E14A82A37423100447E18 /* Assets.xcassets */,
 				A58E14AA2A37423100447E18 /* LaunchScreen.storyboard */,
 				A58E14AD2A37423100447E18 /* Info.plist */,
@@ -161,7 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056C0E342A3B88D4002E97A5 /* TabThreeTempController.swift in Sources */,
+				056C0E322A3B8894002E97A5 /* TabTwoTempController.swift in Sources */,
+				0584E6612A38C6D60053D1A8 /* OnboardingScreen.swift in Sources */,
+				056C0E392A3B8957002E97A5 /* TabBarController.swift in Sources */,
 				A58E14A42A37423000447E18 /* ViewController.swift in Sources */,
+				056C0E362A3B88F1002E97A5 /* TabFourTempController.swift in Sources */,
+				056C0E302A3B8868002E97A5 /* TabOneTempController.swift in Sources */,
 				A58E14A02A37423000447E18 /* AppDelegate.swift in Sources */,
 				A58E14A22A37423000447E18 /* SceneDelegate.swift in Sources */,
 				95BE89012A38463C00F428AB /* UICatalog.swift in Sources */,
