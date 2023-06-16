@@ -121,10 +121,9 @@ class OnboardingScreen: UIViewController {
             self.present(vc, animated: true)
             
         default:
-            print("Error")
+            print("This is not gonna happend")
         }
         
-//        animateBackgroundImage()
         
     }
     

@@ -11,7 +11,7 @@ class TabThreeTempController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .purple
-        self.title = "Tab 3"
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

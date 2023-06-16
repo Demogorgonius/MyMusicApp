@@ -14,12 +14,14 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         self.delegate = self
         
         UITabBar.appearance().backgroundColor = UICatalog.Colors.brandBlack
+        UITabBar.appearance().tintColor = UICatalog.Colors.brandLime
+        
         
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.tabBarController?.tabBar.backgroundColor = UICatalog.Colors.brandBlack
+
         
         let tabOne = TabOneTempController()
         let tabOneBarItem = UITabBarItem(title: "", image: UIImage(named: "homeDefault"), selectedImage: UIImage(named: "homeActive"))
@@ -27,17 +29,17 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         tabOne.tabBarItem = tabOneBarItem
         
         let tabTwo = TabTwoTempController()
-        let tabTwoBarItem = UITabBarItem(title: "Explore", image: UIImage(named: "exploreDefault"), selectedImage: UIImage(named: "exploreActive"))
+        let tabTwoBarItem = UITabBarItem(title: "", image: UIImage(named: "exploreDefault"), selectedImage: UIImage(named: "exploreActive"))
         
         tabTwo.tabBarItem = tabTwoBarItem
         
         let tabThree = TabThreeTempController()
-        let tabThreeBarItem = UITabBarItem(title: "Favorites", image: UIImage(named: "favoritesDefault"), selectedImage: UIImage(named: "favoritesActive"))
+        let tabThreeBarItem = UITabBarItem(title: "", image: UIImage(named: "favoritesDefault"), selectedImage: UIImage(named: "favoritesActive"))
         
         tabThree.tabBarItem = tabThreeBarItem
         
         let tabFour = TabFourTempController()
-        let tabFourBarItem = UITabBarItem(title: nil, image: UIImage(named: "accountDefault"), selectedImage: UIImage(named: "accountActive"))
+        let tabFourBarItem = UITabBarItem(title: "", image: UIImage(named: "accountDefault"), selectedImage: UIImage(named: "accountActive"))
         
         tabFour.tabBarItem = tabFourBarItem
         

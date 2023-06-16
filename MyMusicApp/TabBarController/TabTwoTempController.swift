@@ -11,7 +11,7 @@ class TabTwoTempController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .green
-        self.title = "Tab 2"
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
