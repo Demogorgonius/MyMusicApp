@@ -59,9 +59,30 @@
 		C80B3F262A3797AA0071311C /* ReusableGrayLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3F252A3797AA0071311C /* ReusableGrayLine.swift */; };
 		C80B3F282A3797C60071311C /* UIButton + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3F272A3797C60071311C /* UIButton + Ext.swift */; };
 		C80B3F2C2A3799270071311C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3F2B2A3799270071311C /* OnboardingViewController.swift */; };
-		C80B3F2E2A3799420071311C /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3F2D2A3799420071311C /* CustomLabel.swift */; };
 		C80B3F302A3799650071311C /* OnboardingConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B3F2F2A3799650071311C /* OnboardingConstant.swift */; };
-		C80B3F322A379AA40071311C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C80B3F312A379AA40071311C /* GoogleService-Info.plist */; };
+		C8A112D12A3A366D0081393E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A112D02A3A366D0081393E /* SettingsViewController.swift */; };
+		C8A112D32A3A367B0081393E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A112D22A3A367B0081393E /* SettingsView.swift */; };
+		C8A112D62A3A37010081393E /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A112D52A3A37010081393E /* SettingsCell.swift */; };
+		C8A112D82A3A37240081393E /* AccountMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A112D72A3A37240081393E /* AccountMainView.swift */; };
+		C8A112DA2A3A373B0081393E /* AccountMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A112D92A3A373B0081393E /* AccountMainViewController.swift */; };
+		C8C4E13D2A3CD12900F097E9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E13C2A3CD12900F097E9 /* UserInfo.swift */; };
+		C8C4E1402A3CD1A600F097E9 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E13F2A3CD1A600F097E9 /* NotificationsViewController.swift */; };
+		C8C4E1432A3CD5D800F097E9 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1422A3CD5D800F097E9 /* UIColor + Ext.swift */; };
+		C8C4E1452A3CD5ED00F097E9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1442A3CD5ED00F097E9 /* UIView+Extensions.swift */; };
+		C8C4E1472A3CDA8C00F097E9 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1462A3CDA8C00F097E9 /* CustomPageControl.swift */; };
+		C8C4E14B2A3CDE6700F097E9 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E14A2A3CDE6700F097E9 /* FirstScreenViewController.swift */; };
+		C8C4E14D2A3CDE8100F097E9 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E14C2A3CDE8100F097E9 /* SecondScreenViewController.swift */; };
+		C8C4E14F2A3CDE9C00F097E9 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E14E2A3CDE9C00F097E9 /* ThirdScreenViewController.swift */; };
+		C8C4E1512A3CDEAF00F097E9 /* FourthScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1502A3CDEAF00F097E9 /* FourthScreenViewController.swift */; };
+		C8C4E1532A3CDF5E00F097E9 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1522A3CDF5E00F097E9 /* NavBarController.swift */; };
+		C8C4E1552A3CDFDF00F097E9 /* TabBarConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1542A3CDFDF00F097E9 /* TabBarConstant.swift */; };
+		C8C4E1572A3CE60000F097E9 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1562A3CE60000F097E9 /* CustomLabel.swift */; };
+		C8CA2FF02A3CF84E0029A670 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8CA2FEF2A3CF84E0029A670 /* GoogleService-Info.plist */; };
+		C8D5DFC22A3CF1850024CC2F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC12A3CF1850024CC2F /* Kingfisher */; };
+		C8D5DFC52A3CF1EA0024CC2F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC42A3CF1EA0024CC2F /* Realm */; };
+		C8D5DFC72A3CF1EA0024CC2F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC62A3CF1EA0024CC2F /* RealmSwift */; };
+		C8D5DFCA2A3CF1FE0024CC2F /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC92A3CF1FE0024CC2F /* AppAuth */; };
+		C8D5DFCC2A3CF1FE0024CC2F /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFCB2A3CF1FE0024CC2F /* AppAuthCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,9 +116,25 @@
 		C80B3F252A3797AA0071311C /* ReusableGrayLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableGrayLine.swift; sourceTree = "<group>"; };
 		C80B3F272A3797C60071311C /* UIButton + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Ext.swift"; sourceTree = "<group>"; };
 		C80B3F2B2A3799270071311C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
-		C80B3F2D2A3799420071311C /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		C80B3F2F2A3799650071311C /* OnboardingConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingConstant.swift; sourceTree = "<group>"; };
-		C80B3F312A379AA40071311C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8A112D02A3A366D0081393E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C8A112D22A3A367B0081393E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C8A112D52A3A37010081393E /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		C8A112D72A3A37240081393E /* AccountMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMainView.swift; sourceTree = "<group>"; };
+		C8A112D92A3A373B0081393E /* AccountMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMainViewController.swift; sourceTree = "<group>"; };
+		C8C4E13C2A3CD12900F097E9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		C8C4E13F2A3CD1A600F097E9 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		C8C4E1422A3CD5D800F097E9 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
+		C8C4E1442A3CD5ED00F097E9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C8C4E1462A3CDA8C00F097E9 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		C8C4E14A2A3CDE6700F097E9 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		C8C4E14C2A3CDE8100F097E9 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		C8C4E14E2A3CDE9C00F097E9 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
+		C8C4E1502A3CDEAF00F097E9 /* FourthScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreenViewController.swift; sourceTree = "<group>"; };
+		C8C4E1522A3CDF5E00F097E9 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		C8C4E1542A3CDFDF00F097E9 /* TabBarConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConstant.swift; sourceTree = "<group>"; };
+		C8C4E1562A3CE60000F097E9 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		C8CA2FEF2A3CF84E0029A670 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +145,15 @@
 				C80B3EF92A37956E0071311C /* FirebaseDatabase in Frameworks */,
 				C80B3F072A37956E0071311C /* FirebaseFunctionsCombine-Community in Frameworks */,
 				C80B3EFF2A37956E0071311C /* FirebaseFirestore in Frameworks */,
+				C8D5DFC72A3CF1EA0024CC2F /* RealmSwift in Frameworks */,
+				C8D5DFCC2A3CF1FE0024CC2F /* AppAuthCore in Frameworks */,
 				C80B3F162A3795E70071311C /* GoogleSignInSwift in Frameworks */,
 				C80B3EEB2A37956E0071311C /* FirebaseAnalyticsSwift in Frameworks */,
 				C80B3EE72A37956E0071311C /* FirebaseAnalytics in Frameworks */,
 				C80B3EE92A37956E0071311C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				C80B3F0F2A37956E0071311C /* FirebaseMLModelDownloader in Frameworks */,
 				C80B3F032A37956E0071311C /* FirebaseFirestoreSwift in Frameworks */,
+				C8D5DFC22A3CF1850024CC2F /* Kingfisher in Frameworks */,
 				C80B3EEF2A37956E0071311C /* FirebaseAppCheck in Frameworks */,
 				C80B3EED2A37956E0071311C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				C80B3EF32A37956E0071311C /* FirebaseAuth in Frameworks */,
@@ -128,6 +168,8 @@
 				C80B3EFD2A37956E0071311C /* FirebaseDynamicLinks in Frameworks */,
 				C80B3F012A37956E0071311C /* FirebaseFirestoreCombine-Community in Frameworks */,
 				C80B3F112A37956E0071311C /* FirebaseMessaging in Frameworks */,
+				C8D5DFC52A3CF1EA0024CC2F /* Realm in Frameworks */,
+				C8D5DFCA2A3CF1FE0024CC2F /* AppAuth in Frameworks */,
 				C80B3F0D2A37956E0071311C /* FirebaseInstallations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,7 +209,10 @@
 			isa = PBXGroup;
 			children = (
 				C80B3EC42A3792430071311C /* App */,
-				C80B3F1C2A3796F50071311C /* Components */,
+				C80B3EC52A3792690071311C /* Constant */,
+				C80B3F1C2A3796F50071311C /* Settings */,
+				C80B3ECB2A3792C00071311C /* Screen */,
+				C8C4E1412A3CD5BE00F097E9 /* Helpers */,
 				C80B3EE32A37944D0071311C /* Resources */,
 			);
 			path = MyMusicApp;
@@ -178,7 +223,6 @@
 			children = (
 				A58E149F2A37423000447E18 /* AppDelegate.swift */,
 				A58E14A12A37423000447E18 /* SceneDelegate.swift */,
-				C80B3EC52A3792690071311C /* Constant */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -187,10 +231,10 @@
 			isa = PBXGroup;
 			children = (
 				C80B3EC82A3792A10071311C /* AccountConstant.swift */,
+				C8C4E1542A3CDFDF00F097E9 /* TabBarConstant.swift */,
 				C80B3EC62A3792810071311C /* AuthorizationConstant.swift */,
 				C80B3F1A2A3796CF0071311C /* CommonConstant.swift */,
 				C80B3F2F2A3799650071311C /* OnboardingConstant.swift */,
-				C80B3ECB2A3792C00071311C /* Screen */,
 			);
 			name = Constant;
 			sourceTree = "<group>";
@@ -198,9 +242,9 @@
 		C80B3ECB2A3792C00071311C /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				C80B3F2A2A3798E80071311C /* Onboarding */,
 				C80B3F292A3798DD0071311C /* Home */,
-				C80B3ECC2A3792CC0071311C /* Authorization */,
+				C80B3F2A2A3798E80071311C /* Onboarding */,
+				C8A112CE2A3A36330081393E /* Account */,
 			);
 			name = Screen;
 			sourceTree = "<group>";
@@ -255,26 +299,29 @@
 		C80B3EE32A37944D0071311C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C8CA2FEF2A3CF84E0029A670 /* GoogleService-Info.plist */,
 				A58E14AA2A37423100447E18 /* LaunchScreen.storyboard */,
 				A58E14A82A37423100447E18 /* Assets.xcassets */,
-				C80B3F312A379AA40071311C /* GoogleService-Info.plist */,
 				A58E14AD2A37423100447E18 /* Info.plist */,
 				95BE89022A38464D00F428AB /* Fonts and Colors */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C80B3F1C2A3796F50071311C /* Components */ = {
+		C80B3F1C2A3796F50071311C /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				C80B3F212A37976E0071311C /* AlertManager.swift */,
 				C80B3F1D2A3797050071311C /* ReusableTextField.swift */,
 				C80B3F1F2A3797430071311C /* ReusableAuthButton.swift */,
-				C80B3F212A37976E0071311C /* AlertManager.swift */,
+				C8C4E1522A3CDF5E00F097E9 /* NavBarController.swift */,
 				C80B3F232A3797940071311C /* UIImageView + Ext.swift */,
 				C80B3F252A3797AA0071311C /* ReusableGrayLine.swift */,
 				C80B3F272A3797C60071311C /* UIButton + Ext.swift */,
+				C8C4E1462A3CDA8C00F097E9 /* CustomPageControl.swift */,
+				C8C4E1562A3CE60000F097E9 /* CustomLabel.swift */,
 			);
-			name = Components;
+			name = Settings;
 			sourceTree = "<group>";
 		};
 		C80B3F292A3798DD0071311C /* Home */ = {
@@ -289,9 +336,60 @@
 			isa = PBXGroup;
 			children = (
 				C80B3F2B2A3799270071311C /* OnboardingViewController.swift */,
-				C80B3F2D2A3799420071311C /* CustomLabel.swift */,
+				C8C4E14A2A3CDE6700F097E9 /* FirstScreenViewController.swift */,
+				C8C4E14C2A3CDE8100F097E9 /* SecondScreenViewController.swift */,
+				C8C4E14E2A3CDE9C00F097E9 /* ThirdScreenViewController.swift */,
+				C8C4E1502A3CDEAF00F097E9 /* FourthScreenViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C8A112CE2A3A36330081393E /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C8A112CF2A3A36480081393E /* AccountEdit */,
+				C8A112D42A3A36D80081393E /* AccountMain */,
+				C8C4E13E2A3CD18200F097E9 /* Notifications */,
+				C80B3ECC2A3792CC0071311C /* Authorization */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		C8A112CF2A3A36480081393E /* AccountEdit */ = {
+			isa = PBXGroup;
+			children = (
+				C8A112D02A3A366D0081393E /* SettingsViewController.swift */,
+				C8A112D22A3A367B0081393E /* SettingsView.swift */,
+				C8C4E13C2A3CD12900F097E9 /* UserInfo.swift */,
+			);
+			name = AccountEdit;
+			sourceTree = "<group>";
+		};
+		C8A112D42A3A36D80081393E /* AccountMain */ = {
+			isa = PBXGroup;
+			children = (
+				C8A112D52A3A37010081393E /* SettingsCell.swift */,
+				C8A112D72A3A37240081393E /* AccountMainView.swift */,
+				C8A112D92A3A373B0081393E /* AccountMainViewController.swift */,
+			);
+			name = AccountMain;
+			sourceTree = "<group>";
+		};
+		C8C4E13E2A3CD18200F097E9 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				C8C4E13F2A3CD1A600F097E9 /* NotificationsViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		C8C4E1412A3CD5BE00F097E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C8C4E1422A3CD5D800F097E9 /* UIColor + Ext.swift */,
+				C8C4E1442A3CD5ED00F097E9 /* UIView+Extensions.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +433,11 @@
 				C80B3F102A37956E0071311C /* FirebaseMessaging */,
 				C80B3F132A3795E70071311C /* GoogleSignIn */,
 				C80B3F152A3795E70071311C /* GoogleSignInSwift */,
+				C8D5DFC12A3CF1850024CC2F /* Kingfisher */,
+				C8D5DFC42A3CF1EA0024CC2F /* Realm */,
+				C8D5DFC62A3CF1EA0024CC2F /* RealmSwift */,
+				C8D5DFC92A3CF1FE0024CC2F /* AppAuth */,
+				C8D5DFCB2A3CF1FE0024CC2F /* AppAuthCore */,
 			);
 			productName = MyMusicApp;
 			productReference = A58E149C2A37423000447E18 /* MyMusicApp.app */;
@@ -367,6 +470,9 @@
 			packageReferences = (
 				C80B3EE52A37956E0071311C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				C80B3F122A3795E70071311C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				C8D5DFC02A3CF1850024CC2F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C8D5DFC32A3CF1EA0024CC2F /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				C8D5DFC82A3CF1FE0024CC2F /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
 			);
 			productRefGroup = A58E149D2A37423000447E18 /* Products */;
 			projectDirPath = "";
@@ -398,22 +504,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80B3F262A3797AA0071311C /* ReusableGrayLine.swift in Sources */,
+				C8C4E1432A3CD5D800F097E9 /* UIColor + Ext.swift in Sources */,
+				C8C4E1472A3CDA8C00F097E9 /* CustomPageControl.swift in Sources */,
 				C80B3ED12A3793200071311C /* SignInViewController.swift in Sources */,
+				C8C4E1532A3CDF5E00F097E9 /* NavBarController.swift in Sources */,
+				C8C4E14B2A3CDE6700F097E9 /* FirstScreenViewController.swift in Sources */,
 				C80B3F222A37976E0071311C /* AlertManager.swift in Sources */,
 				C80B3ECF2A3793040071311C /* SignInView.swift in Sources */,
+				C8A112D62A3A37010081393E /* SettingsCell.swift in Sources */,
+				C8C4E1452A3CD5ED00F097E9 /* UIView+Extensions.swift in Sources */,
+				C8C4E14F2A3CDE9C00F097E9 /* ThirdScreenViewController.swift in Sources */,
 				C80B3F302A3799650071311C /* OnboardingConstant.swift in Sources */,
 				C80B3F2C2A3799270071311C /* OnboardingViewController.swift in Sources */,
+				C8C4E1572A3CE60000F097E9 /* CustomLabel.swift in Sources */,
+				C8C4E13D2A3CD12900F097E9 /* UserInfo.swift in Sources */,
+				C8C4E14D2A3CDE8100F097E9 /* SecondScreenViewController.swift in Sources */,
+				C8A112DA2A3A373B0081393E /* AccountMainViewController.swift in Sources */,
 				C80B3ED42A3793480071311C /* SignUpViewController.swift in Sources */,
 				C80B3F242A3797940071311C /* UIImageView + Ext.swift in Sources */,
 				A58E14A42A37423000447E18 /* ViewController.swift in Sources */,
 				C80B3F202A3797430071311C /* ReusableAuthButton.swift in Sources */,
 				C80B3EC72A3792810071311C /* AuthorizationConstant.swift in Sources */,
+				C8C4E1552A3CDFDF00F097E9 /* TabBarConstant.swift in Sources */,
 				C80B3ED92A3793940071311C /* ChangePassView.swift in Sources */,
+				C8C4E1402A3CD1A600F097E9 /* NotificationsViewController.swift in Sources */,
 				C80B3F1B2A3796CF0071311C /* CommonConstant.swift in Sources */,
+				C8A112D82A3A37240081393E /* AccountMainView.swift in Sources */,
 				C80B3F1E2A3797050071311C /* ReusableTextField.swift in Sources */,
-				C80B3F2E2A3799420071311C /* CustomLabel.swift in Sources */,
+				C8A112D32A3A367B0081393E /* SettingsView.swift in Sources */,
 				C80B3EDB2A3793B00071311C /* ChangePassViewController.swift in Sources */,
 				A58E14A02A37423000447E18 /* AppDelegate.swift in Sources */,
+				C8C4E1512A3CDEAF00F097E9 /* FourthScreenViewController.swift in Sources */,
 				C80B3EDE2A3793E80071311C /* ForgotPassViewController.swift in Sources */,
 				C80B3EE02A3793FB0071311C /* ForgotPassView.swift in Sources */,
 				A58E14A22A37423000447E18 /* SceneDelegate.swift in Sources */,
@@ -567,7 +688,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.edward.MyMusicApp;
+				PRODUCT_BUNDLE_IDENTIFIER = edward.com.MyMusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -585,7 +706,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TWQL7PLAUC;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMusicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -597,7 +718,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "zvontsov-adadigital.ru.MyMusicApp";
+				PRODUCT_BUNDLE_IDENTIFIER = edward.com.MyMusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -646,6 +767,30 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
+			};
+		};
+		C8D5DFC02A3CF1850024CC2F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C8D5DFC32A3CF1EA0024CC2F /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C8D5DFC82A3CF1FE0024CC2F /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -770,6 +915,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C80B3F122A3795E70071311C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		C8D5DFC12A3CF1850024CC2F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8D5DFC02A3CF1850024CC2F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C8D5DFC42A3CF1EA0024CC2F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8D5DFC32A3CF1EA0024CC2F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		C8D5DFC62A3CF1EA0024CC2F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8D5DFC32A3CF1EA0024CC2F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		C8D5DFC92A3CF1FE0024CC2F /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8D5DFC82A3CF1FE0024CC2F /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		C8D5DFCB2A3CF1FE0024CC2F /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8D5DFC82A3CF1FE0024CC2F /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

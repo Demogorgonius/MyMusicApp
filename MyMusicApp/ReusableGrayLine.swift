@@ -12,7 +12,7 @@ final class ReusableGrayLine: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = CommonConstant.Color.lightGray
+        backgroundColor = .maLightGray
         translatesAutoresizingMaskIntoConstraints = false
         heightAnchor.constraint(equalToConstant: 1).isActive = true
         
@@ -22,3 +22,4 @@ final class ReusableGrayLine: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
