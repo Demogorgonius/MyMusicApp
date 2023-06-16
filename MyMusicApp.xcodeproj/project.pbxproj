@@ -72,7 +72,7 @@
 		C8C4E1532A3CDF5E00F097E9 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1522A3CDF5E00F097E9 /* NavBarController.swift */; };
 		C8C4E1552A3CDFDF00F097E9 /* TabBarConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1542A3CDFDF00F097E9 /* TabBarConstant.swift */; };
 		C8C4E1572A3CE60000F097E9 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4E1562A3CE60000F097E9 /* CustomLabel.swift */; };
-		C8C4E1592A3CEBA800F097E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8C4E1582A3CEBA700F097E9 /* GoogleService-Info.plist */; };
+		C8CA2FF02A3CF84E0029A670 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8CA2FEF2A3CF84E0029A670 /* GoogleService-Info.plist */; };
 		C8D5DFC22A3CF1850024CC2F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC12A3CF1850024CC2F /* Kingfisher */; };
 		C8D5DFC52A3CF1EA0024CC2F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC42A3CF1EA0024CC2F /* Realm */; };
 		C8D5DFC72A3CF1EA0024CC2F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C8D5DFC62A3CF1EA0024CC2F /* RealmSwift */; };
@@ -124,7 +124,7 @@
 		C8C4E1522A3CDF5E00F097E9 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		C8C4E1542A3CDFDF00F097E9 /* TabBarConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConstant.swift; sourceTree = "<group>"; };
 		C8C4E1562A3CE60000F097E9 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
-		C8C4E1582A3CEBA700F097E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/MyMusicApp-Vitali_AddTransitionFromAccountSettings/MyMusicApp/Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8CA2FEF2A3CF84E0029A670 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,7 +277,7 @@
 		C80B3EE32A37944D0071311C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C8C4E1582A3CEBA700F097E9 /* GoogleService-Info.plist */,
+				C8CA2FEF2A3CF84E0029A670 /* GoogleService-Info.plist */,
 				A58E14AA2A37423100447E18 /* LaunchScreen.storyboard */,
 				A58E14A82A37423100447E18 /* Assets.xcassets */,
 				A58E14AD2A37423100447E18 /* Info.plist */,
@@ -467,7 +467,7 @@
 			files = (
 				A58E14AC2A37423100447E18 /* LaunchScreen.storyboard in Resources */,
 				A58E14A92A37423100447E18 /* Assets.xcassets in Resources */,
-				C8C4E1592A3CEBA800F097E9 /* GoogleService-Info.plist in Resources */,
+				C8CA2FF02A3CF84E0029A670 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
