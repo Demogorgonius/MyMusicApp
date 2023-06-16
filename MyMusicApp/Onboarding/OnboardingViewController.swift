@@ -7,69 +7,117 @@
 
 import UIKit
 
-class OnboaringViewController: UIViewController {
+class OnboardingViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     
-    let backgroundImage: UIImageView = {
-        let image = UIImageView()
-        image.image = OnboardingConstant.Image.firstOnboarding
-        image.translatesAutoresizingMaskIntoConstraints = false
-        image.contentMode = .scaleAspectFill
-        image.clipsToBounds = true
-        return image
-    }()
+    var pages = [FirstScreenViewController(),
+                 SecondScreenViewController(),
+                 ThirdScreenViewController(),
+                 FourthScreenViewController()]
     
-    var firstTitle = CustomLabel().createCustomLabel(text: OnboardingConstant.Text.appUIKit,
-                                                     textColor: CommonConstant.Color.customYellow ?? .white,
-                                                     font: CommonConstant.FontSize.font14,
-                                                     textAlignment: .left,
-                                                     numberOfLines: 1)
+    let pageControl = UIPageControl()
     
-    var secondTitle = CustomLabel().createCustomLabel(text: OnboardingConstant.Text.wellcome,
-                                                     textColor: .white,
-                                                     font: CommonConstant.FontSize.fontBold28,
-                                                     textAlignment: .left,
-                                                     numberOfLines: 2)
-    
-    var thirdTitle = CustomLabel().createCustomLabel(text: OnboardingConstant.Text.makeYourDesign,
-                                                      textColor: .white,
-                                                      font: CommonConstant.FontSize.font14,
-                                                      textAlignment: .left,
-                                                      numberOfLines: 2)
+    let pageViewController = UIPageViewController(transitionStyle: .scroll,
+                                                  navigationOrientation: .horizontal,
+                                                  options: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = CommonConstant.Color.background
+        dataSource = self
+        delegate = self
         
+        configurePageViewController()
+        configurePageControl()
+    
+    //    setViewControllers()
         setupHierarchy()
         setConstrains()
     }
     
-    func setupHierarchy() {
-        view.addSubview(backgroundImage)
-        view.addSubview(firstTitle)
-        view.addSubview(secondTitle)
-        view.addSubview(thirdTitle)
+    func configurePageViewController() {
+        pageViewController.dataSource = self
+        pageViewController.view.frame = self.view.frame
+        pageViewController.didMove(toParent: self)
+        pageViewController.setViewControllers([pages[0]],
+                                              direction: .forward,
+                                              animated: false,
+                                              completion: nil)
     }
+    
+    func configurePageControl() {
+        pageControl.frame = CGRect()
+        pageControl.currentPageIndicatorTintColor = .maCustomYellow
+        pageControl.pageIndicatorTintColor = .maLightGray
+        //pageControl.preferredIndicatorImage = OnboardingConstant.Image.activeDot
+        pageControl.numberOfPages = pages.count
+        pageControl.currentPage = 0
+    }
+    
+//    func setViewControllers() {
+//        setViewControllers([pages[viewControllerIndex]], direction: .forward, animated: false, completion: nil)
+//    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController,
+                            viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
+        if let viewControllerIndex = pages.firstIndex(of: viewController) {
+            if viewControllerIndex < pages.count - 1 {
+                // go to next page in array
+                pageControl.currentPage = viewControllerIndex
+                return pages[viewControllerIndex + 1]
+            } else {
+                // wrap to first page in array
+                pageControl.currentPage = viewControllerIndex
+                return nil
+            }
+        }
+        return nil
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController,
+                            viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        
+        if let viewControllerIndex = pages.firstIndex(of: viewController) {
+            if viewControllerIndex == 0 {
+                // wrap to last page in array
+                pageControl.currentPage = viewControllerIndex
+                return nil
+            } else {
+                // go to previous page in array
+                pageControl.currentPage = viewControllerIndex
+                return pages[viewControllerIndex - 1]
+            }
+            
+        }
+        return nil
+    }
+
+    func pageViewController(_ pageViewController: UIPageViewController,
+                            didFinishAnimating finished: Bool,
+                            previousViewControllers: [UIViewController],
+                            transitionCompleted completed: Bool) {
+        
+        if let viewControllers = pageViewController.viewControllers {
+            if let viewControllerIndex = pages.firstIndex(of: viewControllers[0]) {
+                pageControl.currentPage = viewControllerIndex
+            }
+        }
+    }
+    
+    func setupHierarchy() {
+        self.addChild(pageViewController)
+        self.view.addSubview(pageViewController.view)
+        self.view.addSubview(pageControl)
+    }
     
     func setConstrains() {
+        pageControl.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            
-            backgroundImage.topAnchor.constraint(equalTo: view.topAnchor),
-            backgroundImage.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            backgroundImage.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            backgroundImage.bottomAnchor.constraint(equalTo: view.centerYAnchor),
-            
-            firstTitle.topAnchor.constraint(equalTo: backgroundImage.bottomAnchor, constant: 50),
-            firstTitle.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-            
-            secondTitle.topAnchor.constraint(equalTo: firstTitle.bottomAnchor, constant: 10),
-            secondTitle.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-            
-            thirdTitle.topAnchor.constraint(equalTo: secondTitle.bottomAnchor, constant: 10),
-            thirdTitle.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
+            pageControl.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -5),
+            pageControl.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -20),
+            pageControl.heightAnchor.constraint(equalToConstant: 20),
+            pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
     }
 }

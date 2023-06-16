@@ -17,8 +17,8 @@ enum AuthConstant {
     
     enum Text {
         //Title
-        static let singIn = "SING IN"
-        static let singUp = "SING UP"
+        static let singIn = "SIGN IN"
+        static let singUp = "SIGN UP"
         static let forgotPasswordTitle = "Forgot Password?"
         static let changePasswordTitle = "Change Password?"
 
@@ -40,8 +40,8 @@ enum AuthConstant {
         """
 
         //Button
-        static let singUpHaveAccountButton = "Sing up"
-        static let sentButton = "SEND"
+        static let singUpHaveAccountButton = "Sign up"
+        static let sentButton = "SENT"
         static let changePasswordButton = "CHANGE PASSWORD"
 
     }
@@ -55,3 +55,4 @@ enum AuthConstant {
         static let google = UIImage(named: "Google")
     }
 }
+
