@@ -61,12 +61,11 @@ import UIKit
 class TabBarViewController: UITabBarController {
     
     func homeController() -> UIViewController {
-        let vc = OnboardingViewController()
-        //let navigationVC = NavBarController(rootViewController: HomeScreenViewController())
-        vc.tabBarItem = UITabBarItem(title: TabBarConstant.Text.home,
-                                     image: TabBarConstant.Symbols.home,
-                                     tag: 0)
-        return vc
+        let navigationVC = NavBarController(rootViewController: HomeScreenViewController())
+        navigationVC.tabBarItem = UITabBarItem(title: TabBarConstant.Text.explore,
+                                               image: TabBarConstant.Symbols.explore,
+                                               tag: 1)
+        return navigationVC
     }
     
     func exploreControler() -> NavBarController {

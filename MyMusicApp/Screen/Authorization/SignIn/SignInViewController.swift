@@ -76,9 +76,9 @@ extension SignInViewController: SignInViewDelegate {
     func signInView(_ view: SignInView, didTapSignUpButton button: UIButton) {
         print("sign up tapped")
         let signUpVC = SignUpViewController()
-        self.navigationController?.pushViewController(signUpVC, animated: true)
-        //        vc.modalPresentationStyle = .fullScreen
-        //        present(vc, animated: true)
+//        self.navigationController?.pushViewController(signUpVC, animated: true)
+        signUpVC.modalPresentationStyle = .popover
+                present(signUpVC, animated: true)
     }
     
     func signInView(_ view: SignInView, didTapGoogletButton button: UIButton) {
