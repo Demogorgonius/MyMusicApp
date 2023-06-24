@@ -81,7 +81,7 @@ extension AccountMainView: UITableViewDataSource, UITableViewDelegate {
                 cell.accessoryType = .disclosureIndicator
             case 1:
                 cell.iconImageView.image = AccountConstant.Symbol.notification
-                cell.titleLabel.text = "Notification"
+                cell.titleLabel.text = "History"
                 cell.accessoryView = switchControl
             case 2:
                 cell.iconImageView.image = AccountConstant.Symbol.download

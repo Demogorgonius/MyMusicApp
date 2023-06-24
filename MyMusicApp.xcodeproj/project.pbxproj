@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D6A97C2A46495500AC1C78 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6A97B2A46495500AC1C78 /* HistoryViewController.swift */; };
+		05D6A97E2A4655E400AC1C78 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6A97D2A4655E400AC1C78 /* HistoryTableViewCell.swift */; };
+		05D6A9802A47017200AC1C78 /* HistoryTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6A97F2A47017200AC1C78 /* HistoryTableViewHeader.swift */; };
 		C874BC472A3DA40700F640CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C874BC462A3DA40700F640CF /* FirebaseAnalytics */; };
 		C874BC492A3DA40700F640CF /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = C874BC482A3DA40700F640CF /* FirebaseAnalyticsOnDeviceConversion */; };
 		C874BC4B2A3DA40700F640CF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C874BC4A2A3DA40700F640CF /* FirebaseAnalyticsSwift */; };
@@ -138,6 +141,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05D6A97B2A46495500AC1C78 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		05D6A97D2A4655E400AC1C78 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		05D6A97F2A47017200AC1C78 /* HistoryTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewHeader.swift; sourceTree = "<group>"; };
 		A55AA2792A43856600AA50CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8B729C82A3D947A009AC497 /* MyMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B729CB2A3D947A009AC497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -268,6 +274,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D6A9782A4648FB00AC1C78 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				05D6A97B2A46495500AC1C78 /* HistoryViewController.swift */,
+				05D6A97D2A4655E400AC1C78 /* HistoryTableViewCell.swift */,
+				05D6A97F2A47017200AC1C78 /* HistoryTableViewHeader.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
 		C8B729BF2A3D947A009AC497 = {
 			isa = PBXGroup;
 			children = (
@@ -523,6 +539,7 @@
 		C8B72A0F2A3D982F009AC497 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				05D6A9782A4648FB00AC1C78 /* History */,
 				C8B72A112A3D9854009AC497 /* AccountMain */,
 				C8B72A102A3D984B009AC497 /* AccountEdit */,
 				C8B72A122A3D985D009AC497 /* Notifications */,
@@ -818,6 +835,7 @@
 				C8EB80FC2A420A8C00803127 /* Errors.swift in Sources */,
 				C8B72A8C2A3D9E70009AC497 /* SignInViewController.swift in Sources */,
 				C8B72A8A2A3D9E55009AC497 /* SignInView.swift in Sources */,
+				05D6A97E2A4655E400AC1C78 /* HistoryTableViewCell.swift in Sources */,
 				C8B72A302A3D9A24009AC497 /* UIButton.swift in Sources */,
 				C8EB81352A421F6E00803127 /* PlaylistTableViewCell.swift in Sources */,
 				C8EB811E2A420D5900803127 /* ExploreDetailsViewController.swift in Sources */,
@@ -825,6 +843,7 @@
 				C8B729CC2A3D947A009AC497 /* AppDelegate.swift in Sources */,
 				C8B72A942A3D9F02009AC497 /* ForgotPassViewController.swift in Sources */,
 				C8EB81272A420DFF00803127 /* MiniPlayerViewController.swift in Sources */,
+				05D6A97C2A46495500AC1C78 /* HistoryViewController.swift in Sources */,
 				C8B72A9A2A3D9F38009AC497 /* ChangePassViewController.swift in Sources */,
 				C8B72A0A2A3D97D3009AC497 /* SecondScreenViewController.swift in Sources */,
 				C8B72A012A3D9731009AC497 /* PlaylistView.swift in Sources */,
@@ -847,6 +866,7 @@
 				C8EB810E2A420C4D00803127 /* TitleHeaderCollectionReusableView.swift in Sources */,
 				C8B72A982A3D9F28009AC497 /* ChangePassView.swift in Sources */,
 				C8B72A282A3D99D2009AC497 /* ReusableTextField.swift in Sources */,
+				05D6A9802A47017200AC1C78 /* HistoryTableViewHeader.swift in Sources */,
 				C8EB81332A421D7300803127 /* SongPlayerViewController.swift in Sources */,
 				C8EB81052A420BD800803127 /* HomeScreenViewController.swift in Sources */,
 				C8B72A042A3D975F009AC497 /* MyCollectionController.swift in Sources */,
@@ -1015,7 +1035,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 374DGY6WA4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/sergey/swift/SwiftMar7/MyMusicApp/MyMusicApp/Info.plist;
+				INFOPLIST_FILE = "/Users/stankin/Desktop/Swift Marathon/Challenge3_master3/MyMusicApp/MyMusicApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1046,7 +1066,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 374DGY6WA4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/sergey/swift/SwiftMar7/MyMusicApp/MyMusicApp/Info.plist;
+				INFOPLIST_FILE = "/Users/stankin/Desktop/Swift Marathon/Challenge3_master3/MyMusicApp/MyMusicApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
