@@ -16,8 +16,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
+        let tempRoot = HistoryViewController()
         let rootVC = OnboardingViewController()
         let navigationController = NavBarController(rootViewController: rootVC)
+//        window?.rootViewController = tempRoot
         window?.rootViewController = navigationController
         // window?.rootViewController = SettingsViewController()
 

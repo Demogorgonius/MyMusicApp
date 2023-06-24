@@ -37,8 +37,8 @@ extension AccountMainViewController: AccountMainViewDelegate {
             playlistVC.title = "My Playlist"
             navigationController?.pushViewController(playlistVC, animated: true)
         case 1:
-            let notificationtVC = NotificationsViewController()
-            navigationController?.pushViewController(notificationtVC, animated: true)
+            let historyVC = HistoryViewController()
+            navigationController?.pushViewController(historyVC, animated: true)
         case 2:
             print("transition to Download")
         default:
