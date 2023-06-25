@@ -1,0 +1,23 @@
+//
+//  AlbumModel.swift
+//  MyMusicApp
+//
+//  Created by Edward on 17.06.2023.
+//
+
+import Foundation
+
+// MARK: - AlbumResult
+struct AlbumResult: Decodable {
+    var resultCount: Int?
+    var results: [Album]
+}
+
+// MARK: - Abum
+struct Album: Decodable {
+    var artistName: String?
+    var collectionName: String?
+    var trackName: String?
+    var artworkUrl60: String?
+    var previewUrl: String?
+}
