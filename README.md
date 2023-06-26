@@ -1,6 +1,6 @@
 # MyMusicApp
 
-### Worked on the app:
+### Development team:
 <p align="left"> 
 <a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/kheladzedev-red"/></a>
