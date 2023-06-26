@@ -2,8 +2,8 @@
 
 ### Participated in the development of the application:
 <p align="left"> 
-<a href="https://github.com/Ojidaemo">
-<img src="https://img.shields.io/badge/Ojidaemo-red"/></a>
+<a href="https://github.com/kheladzedev">
+<img src="https://img.shields.io/badge/kheladzedev-red"/></a>
 <a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/D1mon227-yellow"/></a>
 <a href="https://github.com/Senior-Pomidorr">
