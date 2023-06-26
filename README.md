@@ -19,14 +19,14 @@
 <a href="https://developer.apple.com/ios/">
 <img src="https://img.shields.io/badge/iOS-15.0%2B-success" alt="iOS Version 15.0"/></a>
 <img src="https://img.shields.io/badge/MVC-ff69b4" alt="MVC" /></a>
-<img src="https://img.shields.io/badge/UIKit-white" alt="MVC" /></a>
+<img src="https://img.shields.io/badge/UIKit-red" alt="MVC" /></a>
 <img src="https://img.shields.io/badge/No storyboard-purple" alt="MVC" /></a>
 <img src="https://img.shields.io/badge/Realm-yellow" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/Firebase-blue" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/Kingfisher-green" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/JSON-red" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/GoogleAuth-green" alt="Firebase" /></a>
-<img src="https://img.shields.io/badge/Notifications-white" alt="Firebase" /></a>
+<img src="https://img.shields.io/badge/Notifications-red" alt="Firebase" /></a>
 </p>
 
 ## About The Project
