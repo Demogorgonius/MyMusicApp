@@ -6,11 +6,9 @@
 <img src="https://img.shields.io/badge/Ojidaemo-red"/></a>
 <a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/D1mon227-yellow"/></a>
-<a href="https://github.com/Alex123423">
-<img src="https://img.shields.io/badge/Alex123423-white"/></a>
 <a href="https://github.com/Senior-Pomidorr">
-<img src="https://img.shields.io/badge/Senior-Pomidorr-blue"/></a>
-<a href="https://github.com/wildwoodB">
+<img src="https://img.shields.io/badge/kheladzedev-blue"/></a>
+<a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/wildwoodB-green"/></a>
 </p>
 
