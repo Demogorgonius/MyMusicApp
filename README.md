@@ -9,7 +9,7 @@
 <a href="https://github.com/Demogorgonius">
 <img src="https://img.shields.io/badge/Demogorgonius/-blue"/></a>
 <a href="https://github.com/kheladzedev">
-<img src="https://img.shields.io/badge/wildwoodB-green"/></a>
+<img src="https://img.shields.io/badge/Johny|Woods-green"/></a>
 </p>
 
 ### Technologies used:
