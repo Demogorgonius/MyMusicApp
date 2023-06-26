@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/kheladzedev-red"/></a>
 <a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/D1mon227-yellow"/></a>
-<a href="https://github.com/Demogorgonius/r">
+<a href="https://github.com/Demogorgonius">
 <img src="https://img.shields.io/badge/Demogorgonius/-blue"/></a>
 <a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/wildwoodB-green"/></a>
