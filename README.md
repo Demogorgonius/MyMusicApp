@@ -36,8 +36,7 @@
 
 ## Music application based on the iTunes API, JSON parsing, data displaing, saving to the REALM database, you can download data,add to favorites and delete them.
 
-| Video | Onboarding | Authentication |
-| --- | --- | --- |
+
 | <img src="https://user-images.githubusercontent.com/46907557/248572422-8c13f11c-e5e2-4e35-81fe-4c858369272c.mov" height="500">|<img src="https://user-images.githubusercontent.com/46907557/248568762-a1c92008-902a-4d18-a96a-835b52dd34b2.png" height="500"/>| <img src="https://user-images.githubusercontent.com/46907557/248568765-31771490-46a9-43fd-8d77-e0e0a7e7c78a.png" height="500"/>|
 ### Onboarding is built on UIPageViewController and UIPageControl. Possibility of registration and login by mail and password and Google authentication, implementation via Firebase 
 ##
