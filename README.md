@@ -4,7 +4,7 @@
 <p align="left"> 
 <a href="https://github.com/Ojidaemo">
 <img src="https://img.shields.io/badge/Ojidaemo-red"/></a>
-<a href="https://github.com/D1mon227">
+<a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/D1mon227-yellow"/></a>
 <a href="https://github.com/Alex123423">
 <img src="https://img.shields.io/badge/Alex123423-white"/></a>
