@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/iOS-15.0%2B-success" alt="iOS Version 15.0"/></a>
 <img src="https://img.shields.io/badge/MVC-ff69b4" alt="MVC" /></a>
 <img src="https://img.shields.io/badge/UIKit-red" alt="MVC" /></a>
-<img src="https://img.shields.io/badge/No storyboard-purple" alt="MVC" /></a>
+<img src="https://img.shields.io/badge/MusicKit-purple" alt="MVC" /></a>
 <img src="https://img.shields.io/badge/Realm-yellow" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/Firebase-blue" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/Kingfisher-green" alt="Firebase" /></a>
