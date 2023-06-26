@@ -23,7 +23,6 @@
 <img src="https://img.shields.io/badge/MVC-ff69b4" alt="MVC" /></a>
 <img src="https://img.shields.io/badge/UIKit-white" alt="MVC" /></a>
 <img src="https://img.shields.io/badge/No storyboard-purple" alt="MVC" /></a>
-
 <img src="https://img.shields.io/badge/Realm-yellow" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/Firebase-blue" alt="Firebase" /></a>
 <img src="https://img.shields.io/badge/Kingfisher-green" alt="Firebase" /></a>
