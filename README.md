@@ -4,12 +4,11 @@
 <p align="left"> 
 <a href="https://github.com/kheladzedev">
 <img src="https://img.shields.io/badge/kheladzedev-red"/></a>
-<a href="https://github.com/kheladzedev">
-<img src="https://img.shields.io/badge/D1mon227-yellow"/></a>
+<a href="https://github.com/AerysIITargaryen">
+<img src="https://img.shields.io/badge/AerysIITargaryen-yellow"/></a>
 <a href="https://github.com/Demogorgonius">
 <img src="https://img.shields.io/badge/Demogorgonius-blue"/></a>
-<a href="https://github.com/kheladzedev">
-<img src="https://img.shields.io/badge/JohnyWoods-green"/></a>
+
 </p>
 
 ### Technologies used:
